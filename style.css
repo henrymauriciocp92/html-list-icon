@@ -1,0 +1,41 @@
+/*optimización lineas*/
+.icon, li{
+	font-size: 30px !important;	
+}
+
+
+
+.icon{
+	color: blue !important;	
+}
+
+ul{
+	 columns: 2 !important;
+    -webkit-columns: 2!important;
+    -moz-columns: 2!important;
+
+}
+
+li{
+	position: relative;	
+    list-style:none;
+	padding: 20px;
+	line-height: 0.9;
+
+}
+
+li span{
+	position: absolute;
+	vertical-align: text-top;
+	padding-left: 10px;
+}
+
+/*Dimenciones*/
+@media only screen and (max-width: 650px){	
+	ul{
+	 columns: 1 !important;
+    -webkit-columns: 1!important;
+    -moz-columns: 1!important;
+	}
+}
+
